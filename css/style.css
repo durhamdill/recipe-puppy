@@ -1,0 +1,56 @@
+/*font-family: 'Slabo 27px', serif;
+font-family: 'Roboto', sans-serif;*/
+
+#wrapper {
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+#results {
+  /*border: 1px solid red;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /*width: 80%;*/
+}
+
+.recipeBox {
+  /*border: 1px solid red;*/
+  margin: 5px;
+  padding: 20px;
+  flex-basis: 25%;
+  background: #e5e5e5;
+}
+
+h1, .recipeBox h2 {
+  font-family: 'Slabo 27px', serif;
+  color: #B20003;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  background: #FBDB3B;
+  color: black;
+  padding: 5px;
+}
+
+form {
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #B20003;
+}
+
+img {
+  /*max-width: inherit;*/
+}
