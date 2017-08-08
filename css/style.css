@@ -12,14 +12,19 @@ font-family: 'Roboto', sans-serif;*/
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /*width: 80%;*/
+  /*background-color: gray;*/
+
+}
+
+#results p {
+  font-family: 'Roboto', sans-serif;
 }
 
 .recipeBox {
   /*border: 1px solid red;*/
   margin: 5px;
-  padding: 20px;
-  flex-basis: 25%;
+  padding-bottom: 20px;
+  flex-basis: 250px;
   background: #e5e5e5;
 }
 
@@ -36,12 +41,16 @@ h2 {
   font-family: 'Roboto', sans-serif;
 }
 
-a {
+.recipeBox a {
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
   background: #FBDB3B;
   color: black;
   padding: 5px;
+}
+
+.recipeBox a:hover {
+  color: #B20003;
 }
 
 form {
@@ -51,6 +60,19 @@ form {
   border-bottom: 2px solid #B20003;
 }
 
-img {
-  /*max-width: inherit;*/
+.foodPhoto {
+  width: 100%;
+}
+
+.filler {
+  width: 250px;
+  height: 400px;
+  background-color: red;
+  margin: 5px;
+  overflow: hidden;
+}
+
+.filler img {
+  height: 100%;
+  /*overflow: hidden;*/
 }

@@ -23,12 +23,12 @@ let url = "http://recipepuppyproxy.herokuapp.com/api/?i=";
           let results = document.getElementById("results");
           results.innerHTML = '';
           if (data.results.length===0){
-            results.innerHTML += `Sorry, your search did not find any results.`
+            results.innerHTML += `<p>Sorry, your search did not return any results. Try again!</p>`
           }
           else {
             data.results.map((recipe)=>{
               results.innerHTML += `
-              <div class="recipeBox"><img src="${recipe.thumbnail}">
+              <div class="recipeBox"><img class="foodPhoto" src="${recipe.thumbnail}">
               <h2>${recipe.title}</h2>
               <a href="${recipe.href}">View Recipe</a></div>
               `
