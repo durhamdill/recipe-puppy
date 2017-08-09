@@ -7,6 +7,12 @@ let url = "http://recipepuppyproxy.herokuapp.com/api/?i=";
      let button = document.querySelector("button");
      button.addEventListener("click", submitSearch);
 
+// let input = document.getElementById('search');
+// input.addEventListener('keypress', function(e) {
+// var key = e.which || e.keyCode;
+// if (key === 13) {submitSearch()}} );
+// function submitSearch() {
+
      function submitSearch() {
        let input = document.querySelector("#searchbox").value;
        console.log(input);
